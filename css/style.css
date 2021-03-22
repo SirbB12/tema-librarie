@@ -15,20 +15,123 @@ body{
     height: 18vh;
     background-color: rgb(69, 69, 175);
 }
+/*Input value*/
+
+.input-value{
+display:flex;
+width: 45vw;
+height: 10vh;
+background-color: white;
+margin-top: 4vh;
+margin-left: 15px;
+border-radius: 20px;
+justify-content: space-evenly;
+}
+
+/* Logo libris*/
+
 #libris{
-    width: 16vw;
+    width: 15vw;
     height: 18vh;
     }
     .imagine1{
-        margin-left: 8vw;
+        margin-left: 5vw;
     }
+
+    /*Search bar*/
+
     .search-bar{
-        margin-left: 25px;
-        margin-top: 4vh;
+        display:flex;
         border: 0px;
         border-radius: 20px;
-        /*padding-left: 15px;*/
          text-indent: 15px;
-         width: 40vw;
-         height: 10vh;
+         width: 10vw;
+         height: 10vh;  
+         
     }
+    .search-bar:focus{
+        outline: none;
+    }
+
+  /* Dropdown menu*/
+.dropdown{
+    align-self:center;
+}
+.btn{
+    width: 15vw;   
+}
+
+/* imanine lupa*/
+
+.search-lupa{
+    margin-top: 2.5vh;
+    width: 2.5vw;
+    height: 5vh;
+    
+}
+
+/* Detalii section*/
+
+
+.detalii{
+    display: flex;
+    margin-top: 2vw;
+    margin-left: 5vh;
+    width: 30vw;
+    height: 10vh;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+/*Prima parte*/
+.alb{
+    display: flex;
+width: 15vw;
+background-color: plum;
+border-radius: 15px;
+border-top-right-radius: 50%;
+border-bottom-right-radius: 1%;
+}
+.avatar{
+    margin-left: 2vw;
+    margin-top: 3vh;
+    width: 2vw;
+    height: 4vh;
+}
+.text1{
+    color: rgb(25, 25, 148);
+    margin-left: 4px;
+    margin-top: 3px;
+    height: 4vh;
+}
+.sageata1{
+    margin-top: 23px;
+    margin-left: 15px;
+    text-align: center;
+}
+/* A doua parte*/
+.portocaliu{
+    display: flex;
+    width: 15vw;
+background-color: orangered;
+border-radius: 15px;
+border-top-left-radius: 1%;
+border-bottom-left-radius: 50%;
+}
+.cos1{
+    margin-top: 8px;
+    margin-left: 25px;
+    width: 3vw ;
+    height: 8vh;
+}
+.text2{
+    color: rgb(25, 25, 148);
+    margin-left: 15px;
+    margin-top: 3px;
+    height: 4vh;
+}
+.sageata2{
+    margin-top: 23px;
+    margin-left: 15px;
+    text-align: center;
+}
